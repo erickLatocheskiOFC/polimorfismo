@@ -15,7 +15,15 @@ public class Polimorfismo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       /* calculadora calc = new calculadora();
+        System.out.println(calc.somar(2, 3, 6));
+*/
+       gato gato = new gato();
+       cachorro cachorro = new cachorro();
+       pato pato = new pato();
+       gato.comunicar();
+       cachorro.comunicar();
+       gato.comunicar();
     }
-    
+
 }
